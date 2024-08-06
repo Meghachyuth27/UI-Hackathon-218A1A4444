@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flight Booking - Homepage</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Flight Booking</a>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="flights.html">Flights</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Registration</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" style="padding-left:500px ;">
+        <h2> Registration Form</h2>
+        <form id="registrationForm">
+            <label for="username"><p>Username:</p></label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+            <label for="email"><p>Email: </p> </label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="password"><p>Password:</p></label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <label for="name"><p>Name:</p></label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="age"><p>Age:</p></label>
+            <input type="number" id="age" name="age" required>
+            <br><br>
+            <label for="dob"><p>Date of Birth:</p></label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <label for="place"><p>Place:</p></label>
+            <input type="text" id="place" name="place" required>
+            <br><br>
+            <label for="job"><p>Job Details:</p></label>
+            <input type="text" id="job" name="job" required>
+            <br><br>
+            <label for="address"><p>Address:</p></label>
+            <textarea id="address" name="address" required></textarea>
+            <br><br>
+            <label for="salary"><p>Salary:</p></label>
+            <input type="number" id="salary" name="salary" required>
+            <br><br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    
+    <footer class="bg-light py-3">
+        <div class="container text-center">
+            <p>© 2024 cmv flights | About | Careers | Privacy Policy | T&C</p>
+        </div>
+    </footer>
+</body>
+</html>
